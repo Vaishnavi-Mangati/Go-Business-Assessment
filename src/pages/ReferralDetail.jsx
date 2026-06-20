@@ -80,7 +80,7 @@ const formatCurrency = (amount) => {
 
         <h1 className="text-4xl font-bold mb-6">Referral Details</h1>
 
-        <div className="bg-white border border-gray-200 rounded-xl p-6 min-h-[140px]">
+        <div className="bg-white border border-gray-200 rounded-xl p-6">
           <h2 className="text-2xl font-semibold mb-6">{referral.name}</h2>
 
           <div className="space-y-4">

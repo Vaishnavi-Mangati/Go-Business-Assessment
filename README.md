@@ -1,16 +1,45 @@
-# React + Vite
+# Go Business Referral Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based referral management dashboard that allows users to sign in, view referral metrics, search and sort referrals, and view referral details.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Install dependencies:
 
-## React Compiler
+```bash
+npm install
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Start the development server:
 
-## Expanding the ESLint configuration
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Build for production:
+
+```bash
+npm run build
+```
+
+## Features
+
+* JWT Authentication
+* Protected Routes
+* Dashboard Overview Metrics
+* Service Summary
+* Referral Link & Code Sharing
+* Search Referrals
+* Sort by Date
+* Client-side Pagination
+* Referral Details Page
+* Custom 404 Page
+
+## Tech Stack
+
+* React
+* React Router
+* Axios
+* Tailwind CSS
+* js-cookie
+* Vite
